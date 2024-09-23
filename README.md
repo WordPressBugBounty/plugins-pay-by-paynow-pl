@@ -1,0 +1,1 @@
+# plugins-pay-by-paynow-pl
