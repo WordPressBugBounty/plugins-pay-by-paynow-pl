@@ -152,17 +152,17 @@
         },
         {
             "name": "pay-now/paynow-php-sdk",
-            "version": "2.4.2",
-            "version_normalized": "2.4.2.0",
+            "version": "2.4.4",
+            "version_normalized": "2.4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pay-now/paynow-php-sdk.git",
-                "reference": "d12d280ce739ab7ceb7aa292717b0cc4896e0bad"
+                "reference": "0b300739620fc6c838d9af14be50c561c27f50c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pay-now/paynow-php-sdk/zipball/d12d280ce739ab7ceb7aa292717b0cc4896e0bad",
-                "reference": "d12d280ce739ab7ceb7aa292717b0cc4896e0bad",
+                "url": "https://api.github.com/repos/pay-now/paynow-php-sdk/zipball/0b300739620fc6c838d9af14be50c561c27f50c9",
+                "reference": "0b300739620fc6c838d9af14be50c561c27f50c9",
                 "shasum": ""
             },
             "require": {
@@ -170,7 +170,7 @@
                 "php-http/client-implementation": "^1.0 || ^2.0",
                 "php-http/discovery": "^1.12",
                 "php-http/httplug": "^2.2",
-                "psr/http-factory": "^1.0 || ^2.0",
+                "php-http/message-factory": "^1.0 || ^2.0",
                 "psr/http-message": "^1.0 || ^2.0"
             },
             "require-dev": {
@@ -188,7 +188,7 @@
                 "nyholm/psr7": "A super lightweight PSR-7 implementation",
                 "php-http/curl-client": "PSR-18 and HTTPlug Async client with cURL"
             },
-            "time": "2024-10-08T11:43:17+00:00",
+            "time": "2025-05-14T11:25:10+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -217,7 +217,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pay-now/paynow-php-sdk/issues",
-                "source": "https://github.com/pay-now/paynow-php-sdk/tree/v2.4.2"
+                "source": "https://github.com/pay-now/paynow-php-sdk/tree/v2.4.4"
             },
             "install-path": "../pay-now/paynow-php-sdk"
         },
@@ -502,6 +502,64 @@
                 "source": "https://github.com/php-http/message/tree/1.16.2"
             },
             "install-path": "../php-http/message"
+        },
+        {
+            "name": "php-http/message-factory",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/message-factory.git",
+                "reference": "4d8778e1c7d405cbb471574821c1ff5b68cc8f57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/message-factory/zipball/4d8778e1c7d405cbb471574821c1ff5b68cc8f57",
+                "reference": "4d8778e1c7d405cbb471574821c1ff5b68cc8f57",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "time": "2023-04-14T14:16:17+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "Factory interfaces for PSR-7 HTTP Message",
+            "homepage": "http://php-http.org",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "support": {
+                "issues": "https://github.com/php-http/message-factory/issues",
+                "source": "https://github.com/php-http/message-factory/tree/1.1.0"
+            },
+            "abandoned": "psr/http-factory",
+            "install-path": "../php-http/message-factory"
         },
         {
             "name": "php-http/promise",
@@ -799,28 +857,28 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.31.0",
-            "version_normalized": "1.31.0.0",
+            "version": "v1.32.0",
+            "version_normalized": "1.32.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
+                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
-                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
-            "time": "2024-09-09T11:45:10+00:00",
+            "time": "2025-01-02T08:10:11+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "installation-source": "dist",
@@ -862,7 +920,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.32.0"
             },
             "funding": [
                 {
