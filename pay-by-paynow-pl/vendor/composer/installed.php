@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'pay-now/paynow-woocommerce',
-        'pretty_version' => '2.5.11',
-        'version' => '2.5.11.0',
+        'pretty_version' => '2.5.12',
+        'version' => '2.5.12.0',
         'reference' => null,
         'type' => 'woocommerce-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -38,8 +38,8 @@
             'dev_requirement' => false,
         ),
         'pay-now/paynow-woocommerce' => array(
-            'pretty_version' => '2.5.11',
-            'version' => '2.5.11.0',
+            'pretty_version' => '2.5.12',
+            'version' => '2.5.12.0',
             'reference' => null,
             'type' => 'woocommerce-plugin',
             'install_path' => __DIR__ . '/../../',
