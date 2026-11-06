@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'pay-now/paynow-woocommerce',
-        'pretty_version' => '2.5.12',
-        'version' => '2.5.12.0',
+        'pretty_version' => '2.5.13',
+        'version' => '2.5.13.0',
         'reference' => null,
         'type' => 'woocommerce-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -38,8 +38,8 @@
             'dev_requirement' => false,
         ),
         'pay-now/paynow-woocommerce' => array(
-            'pretty_version' => '2.5.12',
-            'version' => '2.5.12.0',
+            'pretty_version' => '2.5.13',
+            'version' => '2.5.13.0',
             'reference' => null,
             'type' => 'woocommerce-plugin',
             'install_path' => __DIR__ . '/../../',
@@ -178,9 +178,9 @@
             'dev_requirement' => false,
         ),
         'symfony/polyfill-php80' => array(
-            'pretty_version' => 'v1.37.0',
-            'version' => '1.37.0.0',
-            'reference' => 'dfb55726c3a76ea3b6459fcfda1ec2d80a682411',
+            'pretty_version' => 'v1.43.0',
+            'version' => '1.43.0.0',
+            'reference' => '9c6a5d6b01ca51d486c813e9a9c0ed55f208bb74',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-php80',
             'aliases' => array(),
